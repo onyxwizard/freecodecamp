@@ -6,45 +6,49 @@ Track your journey through the freeCodeCamp Responsive Web Design Certification.
 
 ## 📑 Table of Contents  
 
-- [Progress Tracker](#progress-tracker)   
-- [Certification Structure](#certification-structure)   
-- [How to Use This Tracker](#how-to-use-this-tracker)   
-- [Final Submission](#final-certification)   
+- [Progress Tracker](#-progress-tracker)   
+- [Certification Structure](#-certification-structure)   
+- [How to Use This Tracker](#-how-to-use-this-tracker)   
+- [Final Submission](#-final-certification)   
 
 
 
-## ✅ **Progress Tracker**  
-
-### Core Sections  
+## ✅ Progress Tracker
 
 | **Section**                                                | **Tracker** |
 |------------------------------------------------------------|:-----------:|
 | Learn HTML by Building a Cat Photo App  🐾                 | ✅          |
-| Learn Basic CSS by Building a Cafe Menu  ☕                | ✅  |
-| Learn CSS Colors by Building a Set of Color Markers  🎨   | ✅           |
+| Learn Basic CSS by Building a Cafe Menu  ☕                | ✅          |
+| Learn CSS Colors by Building a Set of Color Markers  🎨   | ✅          |
+| Learn HTML Forms by Building a Registration Form           | ☐           |
+| Build a Survey Form  📝                                | ☐           |
+
+
+| **Section**                                                | **Tracker** |
+|------------------------------------------------------------|:-----------:|
+| Learn the CSS Box Model by Building a Rothko Painting      | ☐           |
+| Learn CSS Flexbox by Building a Photo Gallery              | ☐           |
 | Learn Typography by Building a Nutrition Label  🥪        | ☐           |
 | Learn Accessibility by Building a Quiz  ✅                 | ☐           |
-
-
-
-### Advanced Sections  
-
-| **Section**                                                         | **Tracker** |
-|---------------------------------------------------------------------|:-----------:|
-| Learn Responsive Web Design by Building a Piano  🎹                 | ☐           |
-| Learn More About CSS Pseudo Selectors By Building A Balance Sheet  📊 | ☐           |
-| Learn CSS Variables by Building a City Skyline  🌆                  | ☐           |
-
-
-
-### Final Projects  
-
-| **Section**                                            | **Tracker** |
-|--------------------------------------------------------|:-----------:|
 | Build a Tribute Page  🏆                               | ☐           |
-| Build a Survey Form  📝                                | ☐           |
-| Build a Product Landing Page  🛒                       | ☐           |
+
+| **Section**                                                | **Tracker** |
+|------------------------------------------------------------|:-----------:|
+| Learn More About CSS Pseudo Selectors By Building A Balance Sheet  📊 | ☐           |
+| Learn Intermediate CSS by Building a Cat Painting          | ☐           |
+| Learn Responsive Web Design by Building a Piano  🎹         | ☐           |
 | Build a Technical Documentation Page  📚               | ☐           |
+
+| **Section**                                                | **Tracker** |
+|------------------------------------------------------------|:-----------:|
+| Learn CSS Variables by Building a City Skyline  🌆          | ☐           |
+| Learn CSS Grid by Building a Magazine                      | ☐           |
+| Build a Product Landing Page  🛒                       | ☐           |
+
+| **Section**                                                | **Tracker** |
+|------------------------------------------------------------|:-----------:|
+| Learn CSS Animation by Building a Ferris Wheel              | ☐           |
+| Learn CSS Transforms by Building a Penguin                  | ☐           |
 | Build a Personal Portfolio Webpage  💼                 | ☐           |
 
 
