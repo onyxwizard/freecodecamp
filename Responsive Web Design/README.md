@@ -21,7 +21,7 @@ Track your journey through the freeCodeCamp Responsive Web Design Certification.
 |------------------------------------------------------------|:-----------:|
 | Learn HTML by Building a Cat Photo App  🐾                 | ✅          |
 | Learn Basic CSS by Building a Cafe Menu  ☕                | ✅  |
-| Learn CSS Colors by Building a Set of Color Markers  🎨   | ☐           |
+| Learn CSS Colors by Building a Set of Color Markers  🎨   | ✅           |
 | Learn Typography by Building a Nutrition Label  🥪        | ☐           |
 | Learn Accessibility by Building a Quiz  ✅                 | ☐           |
 
