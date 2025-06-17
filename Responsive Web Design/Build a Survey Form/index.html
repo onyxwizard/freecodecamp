@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <section class="title-header">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Registration Form</p>
+        </section>
+        <form id="survey-form" method="post" action="/submit-survey">
+            <fieldset>
+            <legend>Basic Details</legend>
+            <label class="inline" id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required/></label>
+            <label class="inline" id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email" required/></label>
+            <label class="inline" id="number-label" for="number">Age<input id="number" type="number" min="13" max="100" placeholder="Enter your Age" required/></label>
+            <label class="inline">Select
+                <select name="dropdown" id="dropdown">
+                    <option value="">Select an option</option>
+                    <option value="1">Projects</option>
+                    <option value="2">Labs</option>
+                    <option value="2">Open Source</option>
+                </select>
+            </label>
+            </fieldset>
+            <fieldset>
+    <legend>Choose Account Type</legend>
+    <label class=" keys">
+        <input class="keys" type="radio" id="select1" name="radio" value="personal" checked />
+        Personal
+    </label>
+    <label class=" keys">
+        <input  class="keys" type="radio" id="select2" name="radio" value="business" />
+        Business
+    </label>
+</fieldset>
+
+<fieldset>
+    <legend>What would you like to see improved? (Check all that apply)</legend>
+    <label class="box">
+        <input type="checkbox" value="one" />
+        Front-end
+    </label>
+    <label class="box">
+        <input type="checkbox" value="two" />
+        Back-end
+    </label>
+    <label class="box">
+        <input type="checkbox" value="three" />
+        Others
+    </label>
+</fieldset>
+            <fieldset>
+                <label for='textarea'>Any comments or suggestions?</label>
+                <textarea name="textarea" id="textarea" rows="10" cols="30" placeholder="Enter your Bio"></textarea>
+
+            </fieldset>
+            <button id="submit" onclick="submit"/>Submit</label>
+
+        </form>
+    </div>
+</body>
+</html>

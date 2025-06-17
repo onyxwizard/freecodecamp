@@ -1,0 +1,141 @@
+/* Reset & Base Styles */
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://images.wallpapersden.com/image/download/abstract-rey-of-colors-4k_bGxuZ2eUmZqaraWkpJRobWllrWdma2U.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f9f9f9;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+/* Container for centering everything */
+.container {
+    max-width: 50%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/* Title and Description */
+#title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#description {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+/* Form Styling */
+#survey-form {
+    display: flex;
+    flex-direction:column;
+    gap: 1.5rem;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+legend {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin: 8px auto;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+}
+
+select {
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.keys{
+    display:inline-flexbox;
+    flex-direction:row-reverse;
+    gap: 53px 49px;
+    width:max-content;
+    margin: 0px 5px;
+    
+}
+
+.keys input{
+    height: 15px;
+}
+
+.box{
+    display: inline-block;
+
+}
+/* Align radio buttons and checkboxes */
+/* .inline input[type="radio"],
+.inline input[type="checkbox"] {
+    margin-right: 2px; /* Space between input and label text */
+    /* vertical-align: middle; /* Align vertically */
+/* } */
+
+.inline{
+}
+
+/* Button Styling */
+button {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(8, 230, 45, 0.7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgba(230, 97, 8, 0.9);
+    color: #fff;
+    font-size: 1.15rem;
+}
+
+button:active {
+    background-color: rgba(12, 8, 230, 0.9);
+}
