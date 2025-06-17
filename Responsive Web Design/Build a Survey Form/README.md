@@ -1,153 +1,126 @@
-# 📝 Build a Survey Form
+# 🧑‍💻 Learn HTML Forms by Building a Registration Form
 
-In this project, I built a responsive survey form with various input types like text, email, number, radio buttons, checkboxes, dropdowns, and a submit button. This helped me understand how to structure forms, apply HTML5 validation, and create accessible user interfaces.
+This project helped me learn how to build a fully functional and accessible HTML form. It includes text inputs, password fields, radio buttons, checkboxes, dropdowns, file upload, and a submit button — all styled with basic CSS.
 
 ## 🚀 Live Preview  
 👉 [**CodePen**](https://codepen.io/onyxwizard/pen/RNPBejY)
 
 
+## 📌 Project Requirements (from FreeCodeCamp)
 
-## 🧠 What I Learned (with Code Snippets)
-
-### 1. 🧾 Page Title & Description
-- Used an `<h1>` with `id="title"` for the main heading.
-- Added a `<p>` with `id="description"` to briefly explain the purpose of the form.
-
-```html
-<h1 id="title">Survey Form</h1>
-<p id="description">Let us know how we can improve freeCodeCamp.</p>
-```
-
-
-
-### 2. 📄 Creating the Form
-- Created a `<form>` element with `id="survey-form"` as the container for all inputs.
-
-```html
-<form id="survey-form">
-  <!-- All form fields go here -->
-</form>
-```
+- ✅ Create an `h1` element with the text `"Registration Form"`
+- ✅ Include a short description in a `p` element
+- ✅ Use a `form` with appropriate `method` and `action`
+- ✅ Add required fields: first name, last name, email, and password
+- ✅ Add optional fields like profile picture, age, referrer dropdown, and bio
+- ✅ Include at least two radio buttons grouped together
+- ✅ Add at least one checkbox (with required validation)
+- ✅ Style the form using basic CSS
+- ✅ Ensure accessibility and semantic structure
 
 
 
-### 3. ✏️ Text Input: Name
-- Added a required text input for name with:
-  - A label (`id="name-label"`)
-  - Placeholder text
-  - Required attribute
+## 🧠 What I Learned
+
+### 1. ✅ Creating Accessible Form Inputs
+Used proper `<label>` elements linked to each input field via the `for/id` relationship for better accessibility.
 
 ```html
-<label id="name-label">Name
-  <input type="text" id="name" placeholder="Enter your name" required />
-</label>
-```
-
-
-### 4. 📧 Email Input
-- Used `type="email"` for valid email entry.
-- Included a label and required field.
-
-```html
-<label id="email-label">Email
-  <input type="email" id="email" placeholder="Enter your email" required />
-</label>
-```
-
-
-### 5. 🔢 Number Input with Validation
-- Added `type="number"` with `min` and `max` attributes to restrict input range.
-- Included placeholder and label.
-
-```html
-<label id="number-label">Age
-  <input type="number" id="number" min="10" max="99" placeholder="Age" required />
+<label for="first-name">Enter Your First Name:
+  <input id="first-name" type="text" required />
 </label>
 ```
 
 
 
-### 6. 🔘 Radio Buttons for Single Choice
-- Grouped multiple `<input type="radio">` elements using the same `name` attribute.
-- Each had a `value`, `name`, and associated label.
+### 2. 🔘 Radio Buttons for Single Choice
+Grouped options using the same `name` attribute so only one can be selected at a time.
 
 ```html
-<label><input type="radio" name="role" value="student" /> Student</label>
-<label><input type="radio" name="role" value="developer" /> Developer</label>
-```
-
-
-
-### 7. ✅ Checkboxes for Multiple Choices
-- Used `<input type="checkbox">` for optional selections.
-- Each checkbox had a `value` attribute.
-
-```html
-<label><input type="checkbox" value="coding" /> Coding</label>
-<label><input type="checkbox" value="design" /> Design</label>
-```
-
-
-
-### 8. 📤 Dropdown Select Menu
-- Used `<select>` with `id="dropdown"` and multiple `<option>` choices.
-
-```html
-<label>Which option best describes you?
-  <select id="dropdown">
-    <option value="">(select one)</option>
-    <option value="beginner">Beginner</option>
-    <option value="intermediate">Intermediate</option>
-  </select>
+<label for="personal-account">
+  <input id="personal-account" type="radio" name="account-type" class="inline" checked />
+  Personal
+</label>
+<label for="business-account">
+  <input id="business-account" type="radio" name="account-type" class="inline" />
+  Business
 </label>
 ```
 
 
-### 9. 📝 Textarea for Comments
-- Included a `<textarea>` for additional feedback.
+### 3. ✅ Checkbox with Validation
+Used a required checkbox to ensure users accept terms before submitting.
 
 ```html
-<label>Any comments?
-  <textarea rows="4" cols="50" placeholder="Enter your comment here..."></textarea>
+<label for="terms-and-conditions">
+  <input id="terms-and-conditions" type="checkbox" required class="inline" />
+  I accept the <a href="#">terms and conditions</a>
 </label>
 ```
 
 
 
-### 10. ✅ Submit Button
-- Created a submit button inside the form with `id="submit"` and `type="submit"`.
+### 4. 📄 Dropdown Menu (`<select>`)
+Created a dropdown menu with multiple options using `<select>` and `<option>`.
 
 ```html
-<input type="submit" id="submit" value="Submit" />
+<select id="referrer" name="referrer">
+  <option value="">(select one)</option>
+  <option value="1">freeCodeCamp News</option>
+  <option value="2">freeCodeCamp YouTube Channel</option>
+</select>
 ```
 
 
 
-### 11. 🎨 Basic CSS Styling
-- Styled layout, fonts, spacing, and centered the form using Flexbox.
+### 5. 📁 File Upload Input
+Used `<input type="file">` to allow users to upload a profile picture.
+
+```html
+<input id="profile-picture" type="file" name="file" />
+```
+
+
+
+### 6. 🔢 Number Input with Range
+Included a number input with minimum and maximum values.
+
+```html
+<input id="age" type="number" min="13" max="120" />
+```
+
+
+
+### 7. 📝 Textarea for Bio
+Used `<textarea>` for multi-line user input.
+
+```html
+<textarea id="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+```
+
+
+
+### 8. 🎨 Basic CSS Styling
+Styled the form layout and improved readability using:
+
+- Custom colors and fonts
+- Padding, margins, and rounded corners
+- Flexbox alignment for inline elements
 
 ```css
-body {
-  font-family: 'Arial', sans-serif;
-  background: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
 }
 ```
-
-```css
-form {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 100%;
-  max-width: 500px;
-}
-```
-
 
 
 ## 🛠 Technologies Used
-- **HTML5** – For semantic structure and form controls  
+- **HTML5** – For form structure and semantic elements  
 - **CSS3** – For layout and styling  
+

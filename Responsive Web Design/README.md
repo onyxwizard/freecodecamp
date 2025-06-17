@@ -20,8 +20,8 @@ Track your journey through the freeCodeCamp Responsive Web Design Certification.
 | Learn HTML by Building a Cat Photo App  🐾                 | ✅          |
 | Learn Basic CSS by Building a Cafe Menu  ☕                | ✅          |
 | Learn CSS Colors by Building a Set of Color Markers  🎨   | ✅          |
-| Learn HTML Forms by Building a Registration Form           | ☐           |
-| Build a Survey Form  📝                                | ☐           |
+| Learn HTML Forms by Building a Registration Form           | ✅           |
+| Build a Survey Form  📝                                | ✅          |
 
 
 | **Section**                                                | **Tracker** |
