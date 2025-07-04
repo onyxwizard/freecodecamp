@@ -26,9 +26,9 @@ Track your journey through the freeCodeCamp Responsive Web Design Certification.
 
 | **Section**                                                | **Tracker** |
 |------------------------------------------------------------|:-----------:|
-| Learn the CSS Box Model by Building a Rothko Painting      | ☐           |
-| Learn CSS Flexbox by Building a Photo Gallery              | ☐           |
-| Learn Typography by Building a Nutrition Label  🥪        | ☐           |
+| Learn the CSS Box Model by Building a Rothko Painting      | ✅           |
+| Learn CSS Flexbox by Building a Photo Gallery              | ✅           |
+| Learn Typography by Building a Nutrition Label  🥪        | ✅           |
 | Learn Accessibility by Building a Quiz  ✅                 | ☐           |
 | Build a Tribute Page  🏆                               | ☐           |
 
